@@ -1,8 +1,8 @@
 import streamlit as st
 import os
 import sys
-sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
-from src.graph.workflow import app
+API_URL="https://6ft9pqf6hk.execute-api.us-east-1.amazonaws.com"
+
 st.set_page_config(
     page_title="research agent",
     layout="centered"
