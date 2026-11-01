@@ -1,7 +1,8 @@
 import streamlit as st
 import os
 import sys
-API_URL="https://6ft9pqf6hk.execute-api.us-east-1.amazonaws.com"
+import requests
+API_URL=st.secrets["https://6ft9pqf6hk.execute-api.us-east-1.amazonaws.com"]
 
 st.set_page_config(
     page_title="research agent",
