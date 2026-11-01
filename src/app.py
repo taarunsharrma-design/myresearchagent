@@ -1,6 +1,6 @@
 import requests
 import streamlit as st
-API_URL=st.secrets["https://6ft9pqf6hk.execute-api.us-east-1.amazonaws.com"]
+API_URL=st.secrets["API_URL"]
 
 st.title("Multi-Agent Research Assistant")
 query = st.text_input("What would you like to research?")
